@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | NFT preview card component</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <div class="card">
+    <div class="nft-image">
+      <img src="./images/image-equilibrium.jpg" alt="Equilibrium image">
+    </div>
 
-  Equilibrium #3429
+    <div class="nft-title">
+      <span>
+        <h3>Equilibrium #3429</h3>
+      </span>
+    </div>
 
-  Our Equilibrium collection promotes balance and calm.
+    <div class="nft-desc">
+      <p><span>Our Equilibrium collection promotes </span><br />
+        <span>balance and calm.</span>
+      </p>
+    </div>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+    <div class="price-days_left">
+      <span class="price primary-cyan"><img class="icon" src="./images/icon-ethereum.svg" />&nbsp;0.041 ETH</span>
+      <span class="days  primary-soft_blue"><img class="icon" src="./images/icon-clock.svg" />&nbsp;3 days left</span>
+    </div>
+    <hr />
+    <div class="credits">
+      <img src="./images/image-avatar.png">
+      <span class="primary-soft_blue credits-avatar">&nbsp;&nbsp;&nbsp;&nbsp;Creation of</span><span class="name">&nbsp;Jules Wyvern</span>
+    </div>
 
+  </div>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <span>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Aniket Patel</a>.
+    </span>
   </div>
 </body>
+
 </html>
