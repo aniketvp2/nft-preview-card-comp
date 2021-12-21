@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 :root {
-    --margin-bottom: 16px;
+    --margin-bottom: 20px;
 }
 
 *{
@@ -50,8 +50,8 @@ body {
 }
 
 .nft-image img {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     border-radius: 3%;
     display: block;
 }
@@ -88,6 +88,10 @@ body {
     margin-bottom: var(--margin-bottom);
 }
 
+.nft-title h3 {
+    font-size: 25px;
+}
+
 .nft-title:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
@@ -96,17 +100,17 @@ body {
 .nft-desc {
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: var(--margin-bottom);
 }
 
 .icon {
-    height: 13px;
+    height: 16px;
     margin-right: 3px;
 }
 
 .price-days_left {
-    font-size: 14px;
+    font-size: 18px;
     margin-bottom: var(--margin-bottom);
     display: flex;
     justify-content: space-between;
@@ -130,7 +134,7 @@ hr {
     display: inline-flex;
     align-items: center;
     margin-block: 10px;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .credits img {
